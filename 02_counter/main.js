@@ -14,6 +14,7 @@ let count = 0;
 //     count++;
 //     h1.innerHTML = count;
 // };
+h1.innerHTML = count;
 function plus(){
     count++;
     h1.innerHRML = count;
