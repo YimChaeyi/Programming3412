@@ -15,8 +15,8 @@ let count = 0;
 //     h1.innerHTML = count;
 // };
 h1.innerHTML = count;
-function plus(number=1){
-    count += number;
+function plus(number){
+    count+= number;
     h1.innerHTML = count;
 }
 
