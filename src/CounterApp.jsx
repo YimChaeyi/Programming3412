@@ -23,12 +23,12 @@ function CounterApp() {
     <button onClick={() => setCount((count) => count -1)}>-</button>
     <button onClick={() => setCount(0)}>reset</button>
     {/* <button onClick={() => setCount((count) => Math.min(count + 1, 10))}>+(최대 10까지)</button> */}
-    <button onClick={() => setCount((count) => count +1 > 10 ? 10 : count + 1)}>+(최대 10까지)</button>
+    <button onClick={() => setCount((count) => count +1 > 10 ? 10 : count + 1)}>+(최대 10까지 삼항연산자)</button>
     <button onClick={() => setCount((count) => {
       if (count >= 10) return 10;
       return count + 1;
-    })}>+(최대 10까지)</button>
-    <button onClick={() => plusMAx10()}>+(최대 10까지)</button>
+    })}>+(최대 10까지 if)</button>
+    <button onClick={() => plusMAx10()}>+(최대 10까지 함수사용)</button>
     <button onClick={plusMAx10}>+(최대 10까지)</button>
 
       {/* <button
